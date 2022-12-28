@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Parallax website</title>
+</head>
+<body>
+     <div class="pic1"></div>
+     <div style="height: 50px;background-color: navajowhite;">
+          <h1>Parallax1</h1>
+     </div>
+
+     <div class="pic2"></div>
+     <div style="height: 50px;background-color: beige;">
+          <h1>Parallax2</h1>
+     </div>
+     
+     <div class="pic3"></div>
+     <div style="height: 50px;background-color: navajowhite;">
+          <h1>Parallax3</h1>
+     </div>
+</body>
+</html>
+
+<style>
+     body, html {
+          margin: 0;
+     }
+     .pic1{
+          background-image: url('./pic1.jpg');
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          min-height: 500px;
+     }
+     .pic2{
+          background-image: url('./pic2.jpg');
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          min-height: 500px;
+     }
+     .pic3{
+          background-image: url('./pic3.jpg');
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          min-height: 500px;
+     }
+     h1{
+          margin: 0;
+          text-align: center;
+          padding-top: 10px;
+     }
+</style>
